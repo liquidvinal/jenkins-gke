@@ -1,2 +1,2 @@
 FROM jenkins/jnlp-slave
-RUN apt-get update && apt-get install -y golang
+RUN sudo apt-get update && sudo apt-get install -y golang
